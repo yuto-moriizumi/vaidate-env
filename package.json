@@ -1,0 +1,19 @@
+{
+  "name": "@volgakurvar/vaidate-env",
+  "version": "1.0.0",
+  "description": "The simple wrapper utility function for envalid",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Yuto Moriizumi",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "envalid": "^8.0.0"
+  }
+}
